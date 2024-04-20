@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ namespace ProyectoBD2Grupo5.Forms
     public partial class MDIMenu : Form
     {
         private int childFormNumber = 0;
+        private SqlConnection conexion;
+
 
         public MDIMenu()
         {
@@ -101,6 +104,20 @@ namespace ProyectoBD2Grupo5.Forms
             foreach (Form childForm in MdiChildren)
             {
                 childForm.Close();
+            }
+        }
+
+        private void MDIMenu_Load(object sender, EventArgs e)
+        {
+            FrmLogin frm = new FrmLogin();
+            frm.ShowDialog();
+
+            if (!frm.getConectado)
+            {
+                this.Close();
+            }else
+            {
+                this.conexion = frm.getConexion;
             }
         }
     }

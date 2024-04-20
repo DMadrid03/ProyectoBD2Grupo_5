@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "f2TwWwuwJcHKNJQztY1YUVlRO8jPWSjBqE7vPuGB1pmZg9WLMPofev1HmtE2hsm8Sw9EC4QsyUA1OgtYW6xMxg==",
+  "dgSpecHash": "dUAB4Qd7dgla6N83QppHwlZ0V9mcChzUBO3RZ+BvTTzEGHwEHT0+F8WqLVLIxbHZSIMKHUEhSo5a4Ky+kVrfNQ==",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
