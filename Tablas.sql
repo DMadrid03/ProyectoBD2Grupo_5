@@ -68,7 +68,6 @@ CREATE TABLE Cultivo (
   CultivoID INT NOT NULL,
   LoteID INT NOT NULL,
   FechaSiembra DATETIME NOT NULL,
-  FechaCosecha DATETIME,
   Precio FLOAT NOT NULL,
   CONSTRAINT pkCultivo PRIMARY KEY (CultivoID),
   CONSTRAINT fkCultivoLote FOREIGN KEY (LoteID) REFERENCES Lote(LoteID)
@@ -80,7 +79,8 @@ CREATE TABLE Cosecha (
   ProductoID INT NOT NULL,
   CultivoID INT NOT NULL,
   UnidadID INT NOT NULL,
-  Cantidad INT NOT NULL,
+  Cantidad INT NULL,
+  Fecha datetime null,
   CONSTRAINT pkCosecha PRIMARY KEY (CosechaID),
   CONSTRAINT fkCosechaProducto FOREIGN KEY (ProductoID) REFERENCES Producto(ProductoID),
   CONSTRAINT fkCosechaCultivo FOREIGN KEY (CultivoID) REFERENCES Cultivo(CultivoID)
