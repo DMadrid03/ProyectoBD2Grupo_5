@@ -71,12 +71,12 @@ namespace ProyectoBD2Grupo5.Forms
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+            //toolStrip.Visible = toolBarToolStripMenuItem.Checked;
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
+            //statusStrip.Visible = statusBarToolStripMenuItem.Checked;
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -115,10 +115,16 @@ namespace ProyectoBD2Grupo5.Forms
             if (!frm.getConectado)
             {
                 this.Close();
-            }else
+            }
+            else
             {
                 this.conexion = frm.getConexion;
             }
+        }
+
+        private void pagoCultivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\",
+  "WorkspaceRootPath": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|c:\\users\\lenovo\\desktop\\program\\proyecto bd2\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmproveedorfinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmproveedorfinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlotesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlotesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|c:\\users\\lenovo\\desktop\\program\\proyecto bd2\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MDIMenu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
-              "RelativeDocumentMoniker": "Forms\\MDIMenu.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\MDIMenu.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "FrmProveedorFinca.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmProveedorFinca.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmProveedorFinca.cs",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmProveedorFinca.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\FrmProveedorFinca.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T21:30:06.35Z",
+              "WhenOpened": "2024-04-21T17:26:58.87Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs",
-              "RelativeToolTip": "Forms\\FrmLogin.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA9wCYAAAARAAAA",
+              "Title": "FrmLotesProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLotesProducto.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmLotesProducto.cs",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLotesProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\FrmLotesProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T19:02:33.98Z",
+              "WhenOpened": "2024-04-21T17:26:53.701Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmListaProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaProductos.cs",
+              "RelativeDocumentMoniker": "Forms\\frmListaProductos.cs",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\frmListaProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:26:50.388Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MDIMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
+              "RelativeDocumentMoniker": "Forms\\MDIMenu.cs",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\MDIMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:26:01.95Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MDIMenu.cs",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
+              "RelativeDocumentMoniker": "Forms\\MDIMenu.cs",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
+              "RelativeToolTip": "Forms\\MDIMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:25:46.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs",
+              "DocumentIndex": 5,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs",
               "RelativeDocumentMoniker": "Forms\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\FrmLogin.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs",
+              "RelativeToolTip": "Forms\\FrmLogin.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T17:36:38.443Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-20T19:02:33.98Z",
+              "EditorCaption": ""
             }
           ]
         }
