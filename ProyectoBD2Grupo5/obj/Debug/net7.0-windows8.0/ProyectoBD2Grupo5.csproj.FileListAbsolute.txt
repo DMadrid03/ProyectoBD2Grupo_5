@@ -23,3 +23,5 @@ C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\ob
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.pdb
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.genruntimeconfig.cache
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ref\ProyectoBD2Grupo5.dll
+C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmLotesProducto.resources
+C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmProveedorFinca.resources

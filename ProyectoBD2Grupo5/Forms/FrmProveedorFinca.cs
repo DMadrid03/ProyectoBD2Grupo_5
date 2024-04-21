@@ -39,5 +39,25 @@ namespace ProyectoBD2Grupo5.Forms
         private void cmdAgregarLote_Click_1(object sender, EventArgs e)
         {
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
