@@ -126,5 +126,12 @@ namespace ProyectoBD2Grupo5.Forms
         {
 
         }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaProveedores frm = new frmListaProveedores(this.conexion);
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
