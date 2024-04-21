@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {
+    "net7.0-windows8.0": {
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -465,36 +465,41 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": [
+    "net7.0-windows8.0": [
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\jeffe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
+      "projectUniqueName": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
       "projectName": "ProyectoBD2Grupo5",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto BD2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\obj\\",
+      "projectPath": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
+      "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jeffe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows"
+        "net7.0-windows8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net7.0-windows8.0": {
+          "targetAlias": "net7.0-windows8.0",
           "projectReferences": {}
         }
       },
@@ -502,16 +507,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows",
+      "net7.0-windows8.0": {
+        "targetAlias": "net7.0-windows8.0",
         "dependencies": {
           "System.Data.SqlClient": {
             "target": "Package",
@@ -537,7 +537,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
