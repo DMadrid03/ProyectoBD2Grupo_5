@@ -3,27 +3,35 @@
   "WorkspaceRootPath": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmcosechapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmcosechapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmproveedorfinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmproveedorfinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlotesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\frmlotesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlotesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|d:\\documentos\\2024 universidad\\bases de datos ii\\unidad iii\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,18 +47,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmCosechaPago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmCosechaPago.cs",
+              "RelativeDocumentMoniker": "Forms\\frmCosechaPago.cs",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmCosechaPago.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Forms\\frmCosechaPago.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T18:19:59.446Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmLogin.cs",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\FrmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T18:17:56.959Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FrmProveedorFinca.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmProveedorFinca.cs",
               "RelativeDocumentMoniker": "Forms\\FrmProveedorFinca.cs",
-              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmProveedorFinca.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\FrmProveedorFinca.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmProveedorFinca.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Forms\\FrmProveedorFinca.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T17:26:58.87Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FrmLotesProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLotesProducto.cs",
               "RelativeDocumentMoniker": "Forms\\FrmLotesProducto.cs",
@@ -62,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "frmListaProductos.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaProductos.cs",
               "RelativeDocumentMoniker": "Forms\\frmListaProductos.cs",
@@ -74,19 +106,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MDIMenu.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
               "RelativeDocumentMoniker": "Forms\\MDIMenu.cs",
               "ToolTip": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\MDIMenu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T17:26:01.95Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-21T17:26:01.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MDIMenu.cs",
               "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
               "RelativeDocumentMoniker": "Forms\\MDIMenu.cs",
@@ -94,12 +125,11 @@
               "RelativeToolTip": "Forms\\MDIMenu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T17:25:46.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T17:25:46.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "FrmLogin.cs",
               "DocumentMoniker": "D:\\Documentos\\2024 Universidad\\Bases de Datos II\\Unidad III\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\FrmLogin.cs",
               "RelativeDocumentMoniker": "Forms\\FrmLogin.cs",
