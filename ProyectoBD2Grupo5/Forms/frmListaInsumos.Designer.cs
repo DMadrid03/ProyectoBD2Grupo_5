@@ -1,6 +1,6 @@
 ﻿namespace ProyectoBD2Grupo5.Forms
 {
-    partial class frmListaProveedores
+    partial class frmListaInsumos
     {
         /// <summary>
         /// Required designer variable.
@@ -41,16 +41,16 @@
             label1.AutoSize = true;
             label1.Location = new Point(12, 20);
             label1.Name = "label1";
-            label1.Size = new Size(113, 15);
-            label1.TabIndex = 9;
-            label1.Text = "Buscar proveedores:";
+            label1.Size = new Size(93, 15);
+            label1.TabIndex = 14;
+            label1.Text = "Buscar insumos:";
             // 
             // txtBusqueda
             // 
-            txtBusqueda.Location = new Point(131, 17);
+            txtBusqueda.Location = new Point(120, 17);
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(178, 23);
-            txtBusqueda.TabIndex = 8;
+            txtBusqueda.TabIndex = 13;
             txtBusqueda.KeyUp += txtBusqueda_KeyUp;
             // 
             // dataGridView1
@@ -60,29 +60,28 @@
             dataGridView1.Location = new Point(12, 53);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(595, 241);
-            dataGridView1.TabIndex = 7;
+            dataGridView1.TabIndex = 12;
             // 
             // btnModificar
             // 
             btnModificar.Location = new Point(532, 16);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(75, 23);
-            btnModificar.TabIndex = 6;
+            btnModificar.TabIndex = 11;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
-            btnModificar.Click += btnModificar_Click;
             // 
             // btnAgregar
             // 
             btnAgregar.Location = new Point(440, 16);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(75, 23);
-            btnAgregar.TabIndex = 5;
+            btnAgregar.TabIndex = 10;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
             btnAgregar.Click += btnAgregar_Click;
             // 
-            // frmListaProveedores
+            // frmListaInsumos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -92,9 +91,9 @@
             Controls.Add(dataGridView1);
             Controls.Add(btnModificar);
             Controls.Add(btnAgregar);
-            Name = "frmListaProveedores";
-            Text = "Proveedores";
-            Load += frmListaProveedores_Load;
+            Name = "frmListaInsumos";
+            Text = "Insumos";
+            Load += frmListaInsumos_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
