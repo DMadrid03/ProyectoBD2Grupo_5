@@ -29,6 +29,7 @@ namespace ProyectoBD2Grupo5.Forms
 
             adpInsumos = new SqlDataAdapter("spInsumoSelect", cnx);
             adpInsumos.SelectCommand.CommandType = CommandType.StoredProcedure;
+            adpInsumos.SelectCommand.Parameters.AddWithValue("@insumoid", 0);
 
             adpBusqueda = new SqlDataAdapter();
             adpBusqueda.SelectCommand = new SqlCommand("spBusquedaInsumo", cnx);
@@ -101,7 +102,29 @@ namespace ProyectoBD2Grupo5.Forms
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            txtBusqueda.Text = "";
 
+            frmInsumoDialogo frm = new frmInsumoDialogo(this.conexion, this.adpInsumos, -1);
+            frm.ShowDialog();
+
+            tabInsumos.Clear();
+            adpInsumos.Fill(tabInsumos);
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            if(dataGridView1.SelectedRows.Count > 0)
+            {
+                int indice = dataGridView1.SelectedRows[0].Index;
+                int insumoid = (int)tabInsumos.Rows[indice]["InsumoID"];
+                txtBusqueda.Text = "";
+
+                frmInsumoDialogo frm = new frmInsumoDialogo(this.conexion, this.adpInsumos, insumoid);
+                frm.ShowDialog();
+
+                tabInsumos.Clear();
+                adpInsumos.Fill(tabInsumos);
+            }
         }
     }
 }

@@ -133,5 +133,12 @@ namespace ProyectoBD2Grupo5.Forms
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void insumosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaInsumos frm = new frmListaInsumos(this.conexion);
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

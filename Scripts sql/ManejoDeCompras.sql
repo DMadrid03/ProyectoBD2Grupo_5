@@ -35,16 +35,27 @@ GO
 
 
 /** Procedimientos para manejar Tabla Insumo **/
+CREATE FUNCTION dbo.CalcularPkInsumo() returns int
+AS
+	BEGIN
+		DECLARE @pk INT
+
+		SELECT @pk = ISNULL(MAX(InsumoID),0) + 1 FROM Insumo
+
+		return @pk
+	END
 
 
-CREATE PROCEDURE spInsumoSelect
+
+CREATE PROCEDURE spInsumoSelect @insumoid int
 AS
 	SELECT * FROM Insumo
+	WHERE InsumoID = @insumoid OR @insumoid = 0
 GO
 
 CREATE PROCEDURE spInsumoInsert @insumoid INT OUTPUT, @nombre VARCHAR(100), @tipo INT, @observacion VARCHAR(200)
 AS
-	SELECT @insumoid = ISNULL(MAX(InsumoID),0) + 1 FROM Insumo
+	SELECT @insumoid = dbo.CalcularPkInsumo()
 
 	INSERT INTO Insumo (InsumoID, Nombre, Existencia, TipoInsumoID, Observacion)
 	VALUES (@insumoid, @nombre, 0, @tipo, @observacion)

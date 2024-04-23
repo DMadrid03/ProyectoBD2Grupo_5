@@ -37,6 +37,7 @@
             comprasToolStripMenuItem = new ToolStripMenuItem();
             insumosToolStripMenuItem = new ToolStripMenuItem();
             comprasToolStripMenuItem1 = new ToolStripMenuItem();
+            proveedoresToolStripMenuItem = new ToolStripMenuItem();
             productosToolStripMenuItem = new ToolStripMenuItem();
             inventarioToolStripMenuItem = new ToolStripMenuItem();
             pagoCultivoToolStripMenuItem = new ToolStripMenuItem();
@@ -44,7 +45,6 @@
             statusStrip = new StatusStrip();
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
-            proveedoresToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             statusStrip.SuspendLayout();
             SuspendLayout();
@@ -69,19 +69,19 @@
             // productoresToolStripMenuItem
             // 
             productoresToolStripMenuItem.Name = "productoresToolStripMenuItem";
-            productoresToolStripMenuItem.Size = new Size(180, 22);
+            productoresToolStripMenuItem.Size = new Size(138, 22);
             productoresToolStripMenuItem.Text = "Productores";
             // 
             // fincasToolStripMenuItem
             // 
             fincasToolStripMenuItem.Name = "fincasToolStripMenuItem";
-            fincasToolStripMenuItem.Size = new Size(180, 22);
+            fincasToolStripMenuItem.Size = new Size(138, 22);
             fincasToolStripMenuItem.Text = "Fincas";
             // 
             // cultivosToolStripMenuItem
             // 
             cultivosToolStripMenuItem.Name = "cultivosToolStripMenuItem";
-            cultivosToolStripMenuItem.Size = new Size(180, 22);
+            cultivosToolStripMenuItem.Size = new Size(138, 22);
             cultivosToolStripMenuItem.Text = "Cultivos";
             // 
             // comprasToolStripMenuItem
@@ -96,12 +96,20 @@
             insumosToolStripMenuItem.Name = "insumosToolStripMenuItem";
             insumosToolStripMenuItem.Size = new Size(180, 22);
             insumosToolStripMenuItem.Text = "Insumos";
+            insumosToolStripMenuItem.Click += insumosToolStripMenuItem_Click;
             // 
             // comprasToolStripMenuItem1
             // 
             comprasToolStripMenuItem1.Name = "comprasToolStripMenuItem1";
             comprasToolStripMenuItem1.Size = new Size(180, 22);
             comprasToolStripMenuItem1.Text = "Compras";
+            // 
+            // proveedoresToolStripMenuItem
+            // 
+            proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
+            proveedoresToolStripMenuItem.Size = new Size(180, 22);
+            proveedoresToolStripMenuItem.Text = "Proveedores";
+            proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // productosToolStripMenuItem
             // 
@@ -113,20 +121,20 @@
             // inventarioToolStripMenuItem
             // 
             inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            inventarioToolStripMenuItem.Size = new Size(180, 22);
+            inventarioToolStripMenuItem.Size = new Size(171, 22);
             inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // pagoCultivoToolStripMenuItem
             // 
             pagoCultivoToolStripMenuItem.Name = "pagoCultivoToolStripMenuItem";
-            pagoCultivoToolStripMenuItem.Size = new Size(180, 22);
+            pagoCultivoToolStripMenuItem.Size = new Size(171, 22);
             pagoCultivoToolStripMenuItem.Text = "Cosecha";
             pagoCultivoToolStripMenuItem.Click += pagoCultivoToolStripMenuItem_Click;
             // 
             // pagosAProductorToolStripMenuItem
             // 
             pagosAProductorToolStripMenuItem.Name = "pagosAProductorToolStripMenuItem";
-            pagosAProductorToolStripMenuItem.Size = new Size(180, 22);
+            pagosAProductorToolStripMenuItem.Size = new Size(171, 22);
             pagosAProductorToolStripMenuItem.Text = "Pagos a Productor";
             // 
             // statusStrip
@@ -144,13 +152,6 @@
             toolStripStatusLabel.Name = "toolStripStatusLabel";
             toolStripStatusLabel.Size = new Size(42, 17);
             toolStripStatusLabel.Text = "Estado";
-            // 
-            // proveedoresToolStripMenuItem
-            // 
-            proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            proveedoresToolStripMenuItem.Size = new Size(180, 22);
-            proveedoresToolStripMenuItem.Text = "Proveedores";
-            proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // MDIMenu
             // 

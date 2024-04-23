@@ -70,6 +70,7 @@
             btnModificar.TabIndex = 11;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnAgregar
             // 
