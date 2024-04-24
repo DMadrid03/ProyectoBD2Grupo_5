@@ -15,7 +15,7 @@ namespace ProyectoBD2Grupo5.Forms
     {
         private SqlConnection conexion;
         private SqlDataAdapter adpTablas;
-        private SqlDataAdapter adpInsumo;
+        private SqlDataAdapter adpInsumos;
         private DataSet dsTablas;
         private DataTable tabInsumo;
 
@@ -23,17 +23,34 @@ namespace ProyectoBD2Grupo5.Forms
         {
             InitializeComponent();
         }
-        public frmInsumoDialogo(SqlConnection cnx, SqlDataAdapter adpInsumo, int insumoid)
+        public frmInsumoDialogo(SqlConnection cnx, int insumoid)
         {
             string sql = "select dbo.CalcularPkInsumo(); select * from dbo.TipoInsumo()";
             InitializeComponent();
             this.conexion = cnx;
-            this.adpInsumo = adpInsumo;
 
             adpTablas = new SqlDataAdapter(sql, cnx);
 
-            adpInsumo.SelectCommand.Parameters[0].Value = insumoid;
-            adpInsumo.UpdateCommand.Parameters[0].Value = insumoid;
+            adpInsumos = new SqlDataAdapter("spInsumoSelect", cnx);
+            adpInsumos.SelectCommand.CommandType = CommandType.StoredProcedure;
+            adpInsumos.SelectCommand.Parameters.AddWithValue("@insumoid", insumoid);
+
+            adpInsumos.InsertCommand = new SqlCommand("spInsumoInsert", cnx);
+            adpInsumos.InsertCommand.CommandType = CommandType.StoredProcedure;
+            adpInsumos.InsertCommand.Parameters.Add("@insumoid", SqlDbType.Int, 4, "InsumoID");
+            adpInsumos.InsertCommand.Parameters.Add("@nombre", SqlDbType.VarChar, 100, "Nombre");
+            adpInsumos.InsertCommand.Parameters.Add("@tipo", SqlDbType.Int, 4, "TipoInsumoID");
+            adpInsumos.InsertCommand.Parameters.Add("@observacion", SqlDbType.VarChar, 200, "Observacion");
+            adpInsumos.InsertCommand.Parameters[0].Direction = ParameterDirection.InputOutput;
+
+
+            adpInsumos.UpdateCommand = new SqlCommand("spInsumoUpdate", cnx);
+            adpInsumos.UpdateCommand.CommandType = CommandType.StoredProcedure;
+            adpInsumos.UpdateCommand.Parameters.AddWithValue("@insumoid", insumoid);
+            adpInsumos.UpdateCommand.Parameters.Add("@nombre", SqlDbType.VarChar, 100, "Nombre");
+            adpInsumos.UpdateCommand.Parameters.Add("@tipo", SqlDbType.Int, 4, "TipoInsumoID");
+            adpInsumos.UpdateCommand.Parameters.Add("@observacion", SqlDbType.VarChar, 200, "Observacion");
+
         }
 
         private bool validarBlancos()
@@ -56,7 +73,7 @@ namespace ProyectoBD2Grupo5.Forms
                 dsTablas = new DataSet();
                 tabInsumo = new DataTable();
                 adpTablas.Fill(dsTablas);
-                adpInsumo.Fill(tabInsumo);
+                adpInsumos.Fill(tabInsumo);
 
                 cmbTipo.DataSource = dsTablas.Tables[1];
                 cmbTipo.DisplayMember = "Nombre";
@@ -91,15 +108,13 @@ namespace ProyectoBD2Grupo5.Forms
                     return;
                 }
 
-                tabInsumo.Rows[0]["InsumoID"] = Int32.Parse(txtCodigo.Text);
+                tabInsumo.Rows[0]["InsumoID"] = (txtCodigo.Text);
                 tabInsumo.Rows[0]["Nombre"] = txtNombre.Text;
                 tabInsumo.Rows[0]["Existencia"] = txtExistencia.Text;
                 tabInsumo.Rows[0]["TipoInsumoID"] = cmbTipo.SelectedValue;
                 tabInsumo.Rows[0]["Observacion"] = txtObservacion.Text;
 
-                adpInsumo.Update(tabInsumo);
-
-                adpInsumo.SelectCommand.Parameters[0].Value = 0;
+                adpInsumos.Update(tabInsumo);
 
                 this.Close();
 
@@ -114,8 +129,6 @@ namespace ProyectoBD2Grupo5.Forms
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            adpInsumo.SelectCommand.Parameters[0].Value = 0;
-
             this.Close();
         }
     }

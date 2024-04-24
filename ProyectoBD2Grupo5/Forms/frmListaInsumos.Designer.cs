@@ -51,7 +51,7 @@
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(178, 23);
             txtBusqueda.TabIndex = 13;
-            txtBusqueda.KeyUp += txtBusqueda_KeyUp;
+            txtBusqueda.TextChanged += txtBusqueda_TextChanged;
             // 
             // dataGridView1
             // 

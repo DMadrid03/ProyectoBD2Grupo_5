@@ -27,36 +27,9 @@ namespace ProyectoBD2Grupo5.Forms
             InitializeComponent();
             this.conexion = cnx;
 
-            adpInsumos = new SqlDataAdapter("spInsumoSelect", cnx);
+            adpInsumos = new SqlDataAdapter("spListaInsumosSelect", cnx);
             adpInsumos.SelectCommand.CommandType = CommandType.StoredProcedure;
-            adpInsumos.SelectCommand.Parameters.AddWithValue("@insumoid", 0);
-
-            adpBusqueda = new SqlDataAdapter();
-            adpBusqueda.SelectCommand = new SqlCommand("spBusquedaInsumo", cnx);
-            adpBusqueda.SelectCommand.CommandType = CommandType.StoredProcedure;
-            adpBusqueda.SelectCommand.Parameters.Add("@texto", SqlDbType.VarChar, 50);
-
-            adpInsumos.InsertCommand = new SqlCommand("spInsumoInsert", cnx);
-            adpInsumos.InsertCommand.CommandType = CommandType.StoredProcedure;
-            adpInsumos.InsertCommand.Parameters.Add("@insumoid", SqlDbType.Int, 4, "InsumoID");
-            adpInsumos.InsertCommand.Parameters.Add("@nombre", SqlDbType.VarChar, 100, "Nombre");
-            adpInsumos.InsertCommand.Parameters.Add("@tipo", SqlDbType.Int, 4, "TipoInsumoID");
-            adpInsumos.InsertCommand.Parameters.Add("@observacion", SqlDbType.VarChar, 200, "Observacion");
-            adpInsumos.InsertCommand.Parameters[0].Direction = ParameterDirection.InputOutput;
-
-
-            adpInsumos.UpdateCommand = new SqlCommand("spInsumoUpdate", cnx);
-            adpInsumos.UpdateCommand.CommandType = CommandType.StoredProcedure;
-            adpInsumos.UpdateCommand.Parameters.Add("@insumoid", SqlDbType.Int, 4, "InsumoID");
-            adpInsumos.UpdateCommand.Parameters.Add("@nombre", SqlDbType.VarChar, 100, "Nombre");
-            adpInsumos.UpdateCommand.Parameters.Add("@tipo", SqlDbType.Int, 4, "TipoInsumoID");
-            adpInsumos.UpdateCommand.Parameters.Add("@observacion", SqlDbType.VarChar, 200, "Observacion");
-
-
-            adpInsumos.DeleteCommand = new SqlCommand("spInsumoDelete", cnx);
-            adpInsumos.DeleteCommand.CommandType = CommandType.StoredProcedure;
-            adpInsumos.DeleteCommand.Parameters.Add("@insumoid", SqlDbType.Int, 4, "InsumoID");
-
+            adpInsumos.SelectCommand.Parameters.AddWithValue("@busqueda", "");
         }
 
         private void frmListaInsumos_Load(object sender, EventArgs e)
@@ -79,32 +52,13 @@ namespace ProyectoBD2Grupo5.Forms
 
         }
 
-        private void txtBusqueda_KeyUp(object sender, KeyEventArgs e)
-        {
-            try
-            {
-                tabInsumos.Clear();
-                if (txtBusqueda.Text.Length == 0)
-                {
-                    adpInsumos.Fill(tabInsumos);
-                }
-                else
-                {
-                    adpBusqueda.SelectCommand.Parameters[0].Value = txtBusqueda.Text;
-                    adpBusqueda.Fill(tabInsumos);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             txtBusqueda.Text = "";
 
-            frmInsumoDialogo frm = new frmInsumoDialogo(this.conexion, this.adpInsumos, -1);
+            frmInsumoDialogo frm = new frmInsumoDialogo(this.conexion, -1);
             frm.ShowDialog();
 
             tabInsumos.Clear();
@@ -113,17 +67,39 @@ namespace ProyectoBD2Grupo5.Forms
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            if(dataGridView1.SelectedRows.Count > 0)
+            if (dataGridView1.SelectedRows.Count > 0)
             {
                 int indice = dataGridView1.SelectedRows[0].Index;
                 int insumoid = (int)tabInsumos.Rows[indice]["InsumoID"];
                 txtBusqueda.Text = "";
 
-                frmInsumoDialogo frm = new frmInsumoDialogo(this.conexion, this.adpInsumos, insumoid);
+                frmInsumoDialogo frm = new frmInsumoDialogo(this.conexion, insumoid);
                 frm.ShowDialog();
 
                 tabInsumos.Clear();
                 adpInsumos.Fill(tabInsumos);
+            }
+        }
+
+        private void txtBusqueda_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                tabInsumos.Clear();
+                if (txtBusqueda.Text.Length == 0)
+                {
+                    adpInsumos.SelectCommand.Parameters[0].Value = "";
+                    adpInsumos.Fill(tabInsumos);
+                }
+                else
+                {
+                    adpInsumos.SelectCommand.Parameters[0].Value = txtBusqueda.Text;
+                    adpInsumos.Fill(tabInsumos);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

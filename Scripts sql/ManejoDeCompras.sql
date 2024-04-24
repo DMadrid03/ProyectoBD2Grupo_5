@@ -47,10 +47,23 @@ AS
 
 
 
+CREATE PROCEDURE spListaInsumosSelect @busqueda varchar(20)
+AS
+	SELECT * INTO #insumo FROM Insumo
+	WHERE Nombre LIKE '%'+@busqueda+'%' OR @busqueda = ''
+
+	SELECT * INTO #tipo FROM dbo.TipoInsumo()
+	WHERE TipoInsumoID IN (Select TipoInsumoID From #insumo)
+
+	SELECT i.InsumoID, i.Nombre, i.Existencia, t.Nombre AS 'Tipo de Insumo', i.Observacion
+	FROM #insumo as i
+	INNER JOIN #tipo as t ON i.TipoInsumoID = t.TipoInsumoID
+GO
+
 CREATE PROCEDURE spInsumoSelect @insumoid int
 AS
 	SELECT * FROM Insumo
-	WHERE InsumoID = @insumoid OR @insumoid = 0
+	WHERE InsumoID = @insumoid
 GO
 
 CREATE PROCEDURE spInsumoInsert @insumoid INT OUTPUT, @nombre VARCHAR(100), @tipo INT, @observacion VARCHAR(200)
@@ -71,9 +84,4 @@ GO
 CREATE PROCEDURE spInsumoDelete @insumoid INT
 AS
 	DELETE FROM Insumo WHERE InsumoID = @insumoid
-GO
-
-CREATE PROCEDURE spBusquedaInsumo @texto VARCHAR(50)
-AS
-	SELECT * FROM Insumo WHERE Nombre LIKE ('%'+ @texto + '%')
 GO
