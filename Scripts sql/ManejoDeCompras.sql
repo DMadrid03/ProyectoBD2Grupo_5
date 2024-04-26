@@ -85,3 +85,86 @@ CREATE PROCEDURE spInsumoDelete @insumoid INT
 AS
 	DELETE FROM Insumo WHERE InsumoID = @insumoid
 GO
+
+/** Procedimientos para manejar las compras y los detalles**/
+CREATE FUNCTION dbo.CalcularPkCompra() returns int
+AS
+	BEGIN
+		DECLARE @pk INT
+
+		SELECT @pk = ISNULL(MAX(CompraID),0) + 1 FROM Compra
+
+		return @pk
+	END
+
+CREATE PROCEDURE spListaCompraSelect @tipo int
+AS
+	if @tipo =1
+		BEGIN
+			Select * from Compra Where TipoCompraID=1
+		END
+	IF @tipo = 2
+		Begin
+			select * from Compra where TipoCompraID = 2
+		End
+go
+
+CREATE PROCEDURE spCompraSelect @compraid int
+AS
+	SELECT * FROM Compra where CompraID = @compraid
+GO
+
+CREATE PROCEDURE spCompraInsert @compraid int, @tipocompraid int,
+							@proveedorid int, @productorid int, 
+							@fecha DATE, @fechavencimiento DATE
+AS
+	select @compraid = dbo.CalcularPkCompra()
+	if @tipocompraid =1
+		Begin
+			insert into Compra (CompraID, TipoCompraID, ProveedorID, Fecha, FechaVencimiento)
+					values		(@compraid, @tipocompraid, @proveedorid, @fecha, @fechavencimiento)
+		End
+	if @tipocompraid = 2
+		Begin
+			insert into Compra (CompraID, TipoCompraID, ProductorID, Fecha)
+					values		(@compraid, @tipocompraid, @productorid, @fecha)
+		End
+GO
+
+CREATE PROCEDURE spCompraUpdate @compraid int, @tipocompraid int,
+							@proveedorid int, @productorid int, 
+							@fecha DATE, @fechavencimiento DATE
+AS
+	if @tipocompraid =1
+		Begin
+			Update	Compra
+			Set CompraID =@compraid, TipoCompraID =@tipocompraid, 
+				ProveedorID = @proveedorid, Fecha = @fecha, FechaVencimiento = @fechavencimiento
+		End
+	if @tipocompraid = 2
+		Begin
+			Update	Compra
+			Set CompraID =@compraid, TipoCompraID =@tipocompraid, 
+				ProductorID = @productorid, Fecha = @fecha
+		End
+GO
+
+CREATE PROCEDURE spCompraDetalleSelect @compraid int
+AS
+	Select * from CompraDetalle
+	where CompraID = @compraid
+GO
+
+CREATE PROCEDURE spCompraDetalleInsert @compraid int, @insumoid int, @cantidad int, @precio float
+AS
+	declare @pk int
+	select @pk = max(isnull(CompraDetalleID, 0)) +1 from CompraDetalle
+	INSERT INTO CompraDetalle values (@pk, @compraid, @insumoid, @cantidad, @precio)
+GO
+
+CREATE PROCEDURE spCompraDetalleUpdate @compraid int, @insumoid int, @cantidad int, @precio float
+AS
+	UPDATE CompraDetalle
+	set InsumoID = @insumoid, Cantidad = @cantidad, Precio = @precio
+	WHERE CompraID = @compraid
+GO

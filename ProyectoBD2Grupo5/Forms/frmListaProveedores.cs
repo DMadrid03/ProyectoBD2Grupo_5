@@ -115,7 +115,7 @@ namespace ProyectoBD2Grupo5.Forms
             if(dataGridView1.SelectedRows.Count > 0)
             {
                 int indice = dataGridView1.SelectedRows[0].Index;
-                int proveedorid = (int)(tabProveedor.Rows[indice]["ProveedorID"]);
+                int proveedorid = (int)(tabProveedor.DefaultView[indice]["ProveedorID"]);
 
                 txtBusqueda.Text = "";
                 frmProveedorDialogo frm = new frmProveedorDialogo(this.conexion, this.adpProveedor, proveedorid);

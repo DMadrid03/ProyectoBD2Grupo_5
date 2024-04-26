@@ -70,7 +70,7 @@ namespace ProyectoBD2Grupo5.Forms
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 int indice = dataGridView1.SelectedRows[0].Index;
-                int insumoid = (int)tabInsumos.Rows[indice]["InsumoID"];
+                int insumoid = (int)tabInsumos.DefaultView[indice]["InsumoID"];
                 txtBusqueda.Text = "";
 
                 frmInsumoDialogo frm = new frmInsumoDialogo(this.conexion, insumoid);

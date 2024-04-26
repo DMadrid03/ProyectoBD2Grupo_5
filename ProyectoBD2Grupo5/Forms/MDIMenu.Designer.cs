@@ -103,6 +103,7 @@
             comprasToolStripMenuItem1.Name = "comprasToolStripMenuItem1";
             comprasToolStripMenuItem1.Size = new Size(180, 22);
             comprasToolStripMenuItem1.Text = "Compras";
+            comprasToolStripMenuItem1.Click += comprasToolStripMenuItem1_Click;
             // 
             // proveedoresToolStripMenuItem
             // 
