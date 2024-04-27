@@ -19,8 +19,10 @@ namespace ProyectoBD2Grupo5.Forms
         DataTable dtCultivos;
         DataTable dtLote;
         int loteID;
+        int CultivoID;
         SqlParameter prmID;
         bool sel;
+        bool selCultivo;
         public FrmCultivosADD()
         {
             InitializeComponent();
@@ -92,12 +94,14 @@ namespace ProyectoBD2Grupo5.Forms
             dataGridView1.DataSource = dtCultivos;
             validarDataGr();
             sel = false;
+            selCultivo = false;
 
 
         }
 
         private void dataGridViewLote_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+
             dtCultivos.Clear();
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
@@ -129,6 +133,43 @@ namespace ProyectoBD2Grupo5.Forms
             else
             {
                 MessageBox.Show("Debes selecionar un Lote", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //validar que se selecione un cultivo
+            if (dataGridView1.SelectedRows.Count > 0 && selCultivo)
+            {
+                MessageBox.Show("se pas el valor " + CultivoID);
+            }
+            else
+            {
+                MessageBox.Show("Debes selecionar un cultivo", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            //selecionamos el valor del cultivo ocupando el valor del cultivo ID
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+
+
+                // Obtener el valor del ID de la fila seleccionada
+                CultivoID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["CultivoID"].Value);
+                selCultivo = true;
+                //
+                //
+                //
+                //MessageBox.Show("El id del cultivo que le paso a daniel es el " + CultivoID);
+
+                // Hacer algo con el valor del ID
+
+
             }
 
         }

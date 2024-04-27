@@ -33,6 +33,7 @@
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
             button1 = new Button();
+            cmdCosecha = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewLote).BeginInit();
             groupBox1.SuspendLayout();
@@ -47,6 +48,7 @@
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(398, 426);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // dataGridViewLote
             // 
@@ -80,7 +82,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(891, 122);
+            button1.Location = new Point(895, 26);
             button1.Name = "button1";
             button1.Size = new Size(119, 48);
             button1.TabIndex = 4;
@@ -88,11 +90,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // cmdCosecha
+            // 
+            cmdCosecha.Location = new Point(895, 106);
+            cmdCosecha.Name = "cmdCosecha";
+            cmdCosecha.Size = new Size(119, 48);
+            cmdCosecha.TabIndex = 5;
+            cmdCosecha.Text = "Agregar Coseha del cultivo";
+            cmdCosecha.UseVisualStyleBackColor = true;
+            cmdCosecha.Click += button2_Click;
+            // 
             // FrmCultivosADD
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1080, 509);
+            Controls.Add(cmdCosecha);
             Controls.Add(button1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -113,5 +126,6 @@
         private GroupBox groupBox1;
         private GroupBox groupBox2;
         private Button button1;
+        private Button cmdCosecha;
     }
 }
