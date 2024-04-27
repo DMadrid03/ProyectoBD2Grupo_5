@@ -97,15 +97,21 @@ AS
 		return @pk
 	END
 
-CREATE PROCEDURE spListaCompraSelect @tipo int
+ALTER PROCEDURE spListaCompraSelect @tipo int
 AS
 	if @tipo =1
 		BEGIN
-			Select * from Compra Where TipoCompraID=1
+			Select c.CompraID, c.TipoCompraID, p.ProveedorID, p.Nombre, c.Fecha, c.FechaVencimiento
+			from Compra c
+			Inner join Proveedor p ON c.ProveedorID = p.ProveedorID
+			Where TipoCompraID=1
 		END
 	IF @tipo = 2
 		Begin
-			select * from Compra where TipoCompraID = 2
+			select c.CompraID, c.TipoCompraID, prod.ProductorID, prod.Nombre, c.Fecha, c.CultivoID
+			from Compra c
+			INNER JOIN Productor prod on prod.ProductorID = c.ProductorID
+			where TipoCompraID = 2
 		End
 go
 
@@ -149,11 +155,32 @@ AS
 		End
 GO
 
-CREATE PROCEDURE spCompraDetalleSelect @compraid int
+Alter PROCEDURE spCompraDetalleSelect @compraid int
 AS
-	Select * from CompraDetalle
-	where CompraID = @compraid
+	declare @tipo int
+	select @tipo = TipoCompraID from Compra where CompraID = @compraid
+	
+	if @tipo = 1
+		Begin
+			Select cd.CompraDetalleID, cd.CompraID, i.InsumoID, i.Nombre,
+					cd.Cantidad, cd.Precio
+			from CompraDetalle as cd
+			INNER JOIN Insumo as i ON i.InsumoID = cd.InsumoID
+			where CompraID = @compraid
+		End
+
+	if @tipo = 2
+		Begin
+			select cd.CompraDetalleID, cd.CompraID, i.InsumoID, i.Nombre, 
+					cd.Cantidad, cd.Precio,
+					Precio*(1+0.05) AS 'Cobro Productor'
+			from CompraDetalle as cd
+			INNER JOIN Insumo as i On i.InsumoID = cd.InsumoID
+			where CompraID = @compraid
+		END
+			
 GO
+
 
 CREATE PROCEDURE spCompraDetalleInsert @compraid int, @insumoid int, @cantidad int, @precio float
 AS
