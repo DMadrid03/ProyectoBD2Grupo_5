@@ -1,6 +1,6 @@
 ﻿namespace ProyectoBD2Grupo5.Forms
 {
-    partial class frmListaProveedores
+    partial class FrmListaFincaLotes
     {
         /// <summary>
         /// Required designer variable.
@@ -30,72 +30,75 @@
         {
             label1 = new Label();
             txtBusqueda = new TextBox();
-            dataGridView1 = new DataGridView();
             btnModificar = new Button();
             btnAgregar = new Button();
+            dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 20);
+            label1.Location = new Point(24, 35);
             label1.Name = "label1";
-            label1.Size = new Size(98, 15);
-            label1.TabIndex = 9;
-            label1.Text = "Buscar productor";
+            label1.Size = new Size(131, 15);
+            label1.TabIndex = 13;
+            label1.Text = "Identificador de la finca";
+            label1.Click += label1_Click;
             // 
             // txtBusqueda
             // 
-            txtBusqueda.Location = new Point(131, 17);
+            txtBusqueda.Enabled = false;
+            txtBusqueda.Location = new Point(161, 28);
             txtBusqueda.Name = "txtBusqueda";
-            txtBusqueda.Size = new Size(178, 23);
-            txtBusqueda.TabIndex = 8;
+            txtBusqueda.Size = new Size(45, 23);
+            txtBusqueda.TabIndex = 12;
             txtBusqueda.TextChanged += txtBusqueda_TextChanged;
-            txtBusqueda.KeyUp += this.txtBusqueda_KeyUp;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 53);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(595, 241);
-            dataGridView1.TabIndex = 7;
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(532, 16);
+            btnModificar.Location = new Point(474, 27);
             btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(75, 23);
-            btnModificar.TabIndex = 6;
-            btnModificar.Text = "Modificar";
+            btnModificar.Size = new Size(168, 23);
+            btnModificar.TabIndex = 11;
+            btnModificar.Text = "Modificar Lotes de la finca";
             btnModificar.UseVisualStyleBackColor = true;
-            btnModificar.Click += this.btnModificar_Click;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(440, 16);
+            btnAgregar.Location = new Point(317, 27);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(75, 23);
-            btnAgregar.TabIndex = 5;
-            btnAgregar.Text = "Agregar";
+            btnAgregar.Size = new Size(151, 23);
+            btnAgregar.TabIndex = 10;
+            btnAgregar.Text = "Agregar Lote a la finca";
             btnAgregar.UseVisualStyleBackColor = true;
-            btnAgregar.Click += this.btnAgregar_Click;
+            btnAgregar.Click += btnAgregar_Click;
             // 
-            // frmListaProveedores
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(24, 115);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(618, 199);
+            dataGridView1.TabIndex = 14;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // FrmListaFincaLotes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(619, 310);
+            ClientSize = new Size(654, 346);
+            Controls.Add(dataGridView1);
             Controls.Add(label1);
             Controls.Add(txtBusqueda);
-            Controls.Add(dataGridView1);
             Controls.Add(btnModificar);
             Controls.Add(btnAgregar);
-            Name = "frmListaProveedores";
-            Text = "Proveedores";
-            Load += this.frmListaProveedores_Load;
+            Name = "FrmListaFincaLotes";
+            Text = "FrmListaFincaLotes";
+            Load += FrmListaFincaLotes_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -105,8 +108,8 @@
 
         private Label label1;
         private TextBox txtBusqueda;
-        private DataGridView dataGridView1;
         private Button btnModificar;
         private Button btnAgregar;
+        private DataGridView dataGridView1;
     }
 }

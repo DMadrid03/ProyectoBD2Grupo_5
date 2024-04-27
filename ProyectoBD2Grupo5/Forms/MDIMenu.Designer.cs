@@ -31,12 +31,14 @@
             components = new System.ComponentModel.Container();
             menuStrip = new MenuStrip();
             productorToolStripMenuItem = new ToolStripMenuItem();
-            productoresToolStripMenuItem = new ToolStripMenuItem();
+            listaProductoresToolStripMenuItem = new ToolStripMenuItem();
             fincasToolStripMenuItem = new ToolStripMenuItem();
             cultivosToolStripMenuItem = new ToolStripMenuItem();
+            agregarToolStripMenuItem = new ToolStripMenuItem();
             comprasToolStripMenuItem = new ToolStripMenuItem();
             insumosToolStripMenuItem = new ToolStripMenuItem();
             comprasToolStripMenuItem1 = new ToolStripMenuItem();
+            proveedoresToolStripMenuItem = new ToolStripMenuItem();
             productosToolStripMenuItem = new ToolStripMenuItem();
             inventarioToolStripMenuItem = new ToolStripMenuItem();
             pagoCultivoToolStripMenuItem = new ToolStripMenuItem();
@@ -44,7 +46,6 @@
             statusStrip = new StatusStrip();
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
-            proveedoresToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             statusStrip.SuspendLayout();
             SuspendLayout();
@@ -61,28 +62,38 @@
             // 
             // productorToolStripMenuItem
             // 
-            productorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { productoresToolStripMenuItem, fincasToolStripMenuItem, cultivosToolStripMenuItem });
+            productorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { listaProductoresToolStripMenuItem, fincasToolStripMenuItem, cultivosToolStripMenuItem, agregarToolStripMenuItem });
             productorToolStripMenuItem.Name = "productorToolStripMenuItem";
             productorToolStripMenuItem.Size = new Size(72, 20);
             productorToolStripMenuItem.Text = "Productor";
             // 
-            // productoresToolStripMenuItem
+            // listaProductoresToolStripMenuItem
             // 
-            productoresToolStripMenuItem.Name = "productoresToolStripMenuItem";
-            productoresToolStripMenuItem.Size = new Size(180, 22);
-            productoresToolStripMenuItem.Text = "Productores";
+            listaProductoresToolStripMenuItem.Name = "listaProductoresToolStripMenuItem";
+            listaProductoresToolStripMenuItem.Size = new Size(180, 22);
+            listaProductoresToolStripMenuItem.Text = "Lista Productores";
+            listaProductoresToolStripMenuItem.Click += listaProductoresToolStripMenuItem_Click;
             // 
             // fincasToolStripMenuItem
             // 
             fincasToolStripMenuItem.Name = "fincasToolStripMenuItem";
             fincasToolStripMenuItem.Size = new Size(180, 22);
-            fincasToolStripMenuItem.Text = "Fincas";
+            fincasToolStripMenuItem.Text = "Lista Fincas";
+            fincasToolStripMenuItem.Click += fincasToolStripMenuItem_Click;
             // 
             // cultivosToolStripMenuItem
             // 
             cultivosToolStripMenuItem.Name = "cultivosToolStripMenuItem";
             cultivosToolStripMenuItem.Size = new Size(180, 22);
             cultivosToolStripMenuItem.Text = "Cultivos";
+            cultivosToolStripMenuItem.Click += cultivosToolStripMenuItem_Click;
+            // 
+            // agregarToolStripMenuItem
+            // 
+            agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
+            agregarToolStripMenuItem.Size = new Size(180, 22);
+            agregarToolStripMenuItem.Text = "Agregar Finca ";
+            agregarToolStripMenuItem.Click += agregarToolStripMenuItem_Click;
             // 
             // comprasToolStripMenuItem
             // 
@@ -94,14 +105,21 @@
             // insumosToolStripMenuItem
             // 
             insumosToolStripMenuItem.Name = "insumosToolStripMenuItem";
-            insumosToolStripMenuItem.Size = new Size(180, 22);
+            insumosToolStripMenuItem.Size = new Size(139, 22);
             insumosToolStripMenuItem.Text = "Insumos";
             // 
             // comprasToolStripMenuItem1
             // 
             comprasToolStripMenuItem1.Name = "comprasToolStripMenuItem1";
-            comprasToolStripMenuItem1.Size = new Size(180, 22);
+            comprasToolStripMenuItem1.Size = new Size(139, 22);
             comprasToolStripMenuItem1.Text = "Compras";
+            // 
+            // proveedoresToolStripMenuItem
+            // 
+            proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
+            proveedoresToolStripMenuItem.Size = new Size(139, 22);
+            proveedoresToolStripMenuItem.Text = "Proveedores";
+            proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // productosToolStripMenuItem
             // 
@@ -113,20 +131,20 @@
             // inventarioToolStripMenuItem
             // 
             inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            inventarioToolStripMenuItem.Size = new Size(180, 22);
+            inventarioToolStripMenuItem.Size = new Size(171, 22);
             inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // pagoCultivoToolStripMenuItem
             // 
             pagoCultivoToolStripMenuItem.Name = "pagoCultivoToolStripMenuItem";
-            pagoCultivoToolStripMenuItem.Size = new Size(180, 22);
+            pagoCultivoToolStripMenuItem.Size = new Size(171, 22);
             pagoCultivoToolStripMenuItem.Text = "Cosecha";
             pagoCultivoToolStripMenuItem.Click += pagoCultivoToolStripMenuItem_Click;
             // 
             // pagosAProductorToolStripMenuItem
             // 
             pagosAProductorToolStripMenuItem.Name = "pagosAProductorToolStripMenuItem";
-            pagosAProductorToolStripMenuItem.Size = new Size(180, 22);
+            pagosAProductorToolStripMenuItem.Size = new Size(171, 22);
             pagosAProductorToolStripMenuItem.Text = "Pagos a Productor";
             // 
             // statusStrip
@@ -144,13 +162,6 @@
             toolStripStatusLabel.Name = "toolStripStatusLabel";
             toolStripStatusLabel.Size = new Size(42, 17);
             toolStripStatusLabel.Text = "Estado";
-            // 
-            // proveedoresToolStripMenuItem
-            // 
-            proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            proveedoresToolStripMenuItem.Size = new Size(180, 22);
-            proveedoresToolStripMenuItem.Text = "Proveedores";
-            proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // MDIMenu
             // 
@@ -175,12 +186,11 @@
         #endregion
 
 
-        private System.Windows.Forms.MenuStrip menuStrip;
-        private System.Windows.Forms.StatusStrip statusStrip;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
-        private System.Windows.Forms.ToolTip toolTip;
+        private MenuStrip menuStrip;
+        private StatusStrip statusStrip;
+        private ToolStripStatusLabel toolStripStatusLabel;
+        private ToolTip toolTip;
         private ToolStripMenuItem productorToolStripMenuItem;
-        private ToolStripMenuItem productoresToolStripMenuItem;
         private ToolStripMenuItem fincasToolStripMenuItem;
         private ToolStripMenuItem cultivosToolStripMenuItem;
         private ToolStripMenuItem comprasToolStripMenuItem;
@@ -191,6 +201,8 @@
         private ToolStripMenuItem pagoCultivoToolStripMenuItem;
         private ToolStripMenuItem pagosAProductorToolStripMenuItem;
         private ToolStripMenuItem proveedoresToolStripMenuItem;
+        private ToolStripMenuItem listaProductoresToolStripMenuItem;
+        private ToolStripMenuItem agregarToolStripMenuItem;
     }
 }
 
