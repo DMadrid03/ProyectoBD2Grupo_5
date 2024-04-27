@@ -134,13 +134,20 @@ namespace ProyectoBD2Grupo5.Forms
             frm.Show();
         }
 
+<<<<<<< HEAD
         private void listaProductoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmListaProductor frm = new FrmListaProductor(this.conexion);
+=======
+        private void insumosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaInsumos frm = new frmListaInsumos(this.conexion);
+>>>>>>> f1c8238c6bda018f3ae34a8618f9bb4a6837d135
             frm.MdiParent = this;
             frm.Show();
         }
 
+<<<<<<< HEAD
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MaestroDetalle_ProductorFinca frm = new MaestroDetalle_ProductorFinca(this.conexion);
@@ -158,6 +165,11 @@ namespace ProyectoBD2Grupo5.Forms
         private void cultivosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmCultivosADD frm = new FrmCultivosADD(this.conexion);
+=======
+        private void comprasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmListaCompras frm = new frmListaCompras(this.conexion);
+>>>>>>> f1c8238c6bda018f3ae34a8618f9bb4a6837d135
             frm.MdiParent = this;
             frm.Show();
         }

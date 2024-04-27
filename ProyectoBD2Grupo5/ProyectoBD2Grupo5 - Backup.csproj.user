@@ -1,26 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Update="Forms\FrmAddCultivo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\FrmAgregarProductorFinca.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\frmCosechaPago.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\FrmCultivosADD.cs">
+=======
+    <Compile Update="Forms\frmCosechaPago.cs">
+>>>>>>> f1c8238c6bda018f3ae34a8618f9bb4a6837d135
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\frmInsumoDialogo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\frmListaCompras.cs">
-      <SubType>Form</SubType>
-    </Compile>
+<<<<<<< HEAD
     <Compile Update="Forms\FrmListaFincaLotes.cs">
+=======
+    <Compile Update="Forms\frmListaCompras.cs">
+>>>>>>> f1c8238c6bda018f3ae34a8618f9bb4a6837d135
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\frmListaInsumos.cs">
@@ -35,16 +36,16 @@
     <Compile Update="Forms\frmListaProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FrmLogin.cs">
+    <Compile Update="Forms\FrmLotesProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmProveedorDialogo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\FrmLoteCultivo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FrmLotesProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\frmProveedorDialogo.cs">
+    <Compile Update="Forms\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\MaestroDetalle_ProductorFinca.cs">

@@ -69,22 +69,33 @@
             // 
             // listaProductoresToolStripMenuItem
             // 
+<<<<<<< HEAD
             listaProductoresToolStripMenuItem.Name = "listaProductoresToolStripMenuItem";
             listaProductoresToolStripMenuItem.Size = new Size(180, 22);
             listaProductoresToolStripMenuItem.Text = "Lista Productores";
             listaProductoresToolStripMenuItem.Click += listaProductoresToolStripMenuItem_Click;
+=======
+            productoresToolStripMenuItem.Name = "productoresToolStripMenuItem";
+            productoresToolStripMenuItem.Size = new Size(138, 22);
+            productoresToolStripMenuItem.Text = "Productores";
+>>>>>>> f1c8238c6bda018f3ae34a8618f9bb4a6837d135
             // 
             // fincasToolStripMenuItem
             // 
             fincasToolStripMenuItem.Name = "fincasToolStripMenuItem";
+<<<<<<< HEAD
             fincasToolStripMenuItem.Size = new Size(180, 22);
             fincasToolStripMenuItem.Text = "Lista Fincas";
             fincasToolStripMenuItem.Click += fincasToolStripMenuItem_Click;
+=======
+            fincasToolStripMenuItem.Size = new Size(138, 22);
+            fincasToolStripMenuItem.Text = "Fincas";
+>>>>>>> f1c8238c6bda018f3ae34a8618f9bb4a6837d135
             // 
             // cultivosToolStripMenuItem
             // 
             cultivosToolStripMenuItem.Name = "cultivosToolStripMenuItem";
-            cultivosToolStripMenuItem.Size = new Size(180, 22);
+            cultivosToolStripMenuItem.Size = new Size(138, 22);
             cultivosToolStripMenuItem.Text = "Cultivos";
             cultivosToolStripMenuItem.Click += cultivosToolStripMenuItem_Click;
             // 
@@ -107,12 +118,21 @@
             insumosToolStripMenuItem.Name = "insumosToolStripMenuItem";
             insumosToolStripMenuItem.Size = new Size(139, 22);
             insumosToolStripMenuItem.Text = "Insumos";
+            insumosToolStripMenuItem.Click += insumosToolStripMenuItem_Click;
             // 
             // comprasToolStripMenuItem1
             // 
             comprasToolStripMenuItem1.Name = "comprasToolStripMenuItem1";
             comprasToolStripMenuItem1.Size = new Size(139, 22);
             comprasToolStripMenuItem1.Text = "Compras";
+            comprasToolStripMenuItem1.Click += comprasToolStripMenuItem1_Click;
+            // 
+            // proveedoresToolStripMenuItem
+            // 
+            proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
+            proveedoresToolStripMenuItem.Size = new Size(180, 22);
+            proveedoresToolStripMenuItem.Text = "Proveedores";
+            proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // proveedoresToolStripMenuItem
             // 
