@@ -69,7 +69,6 @@ C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\Proy
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaProveedores.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmLogin.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmLotesProducto.resources
-C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmProveedorFinca.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.MDIMenu.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.csproj.GenerateResource.cache
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.GeneratedMSBuildEditorConfig.editorconfig
@@ -96,3 +95,16 @@ C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\ob
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.MaestroDetalle_ProductorFinca.resources
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmCultivosADD.resources
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmAddCultivo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmAddCultivo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmAgregarProductorFinca.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmCultivosADD.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmInsumoDialogo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmListaFincaLotes.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaInsumos.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmListaProductor.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmLoteCultivo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.MaestroDetalle_ProductorFinca.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmCompraDialogo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaCosechaPago.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaCompras.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmProveedorFinca.resources
