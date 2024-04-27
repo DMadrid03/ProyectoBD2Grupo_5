@@ -7,6 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "ProyectoBD2Grupo5/1.0.0": {
+<<<<<<< Updated upstream
         "dependencies": {
           "System.Data.SqlClient": "4.8.6"
         },
@@ -89,6 +90,12 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {}
+=======
+        "runtime": {
+          "ProyectoBD2Grupo5.dll": {}
+        }
+      }
+>>>>>>> Stashed changes
     }
   },
   "libraries": {
@@ -96,6 +103,7 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+<<<<<<< Updated upstream
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -159,6 +167,8 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+=======
+>>>>>>> Stashed changes
     }
   }
 }

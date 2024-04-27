@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "Re8cssYTtJSiSyMvI3D6LQKpb9nqBGKcVRCnhMgGZGefcuKNmcHKKCxwLVGbMhaW5g8uIx4QwDSqHb83nKel7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
@@ -14,5 +15,11 @@
     "C:\\Users\\jeffe\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "2eVMxruff7Dnynp3Q9H3aw3dPlvA8i+SGNQxpmeOPtkJUwAQe6aq6mGAStZgFfyj5hT3pNq6ZLXHUn+jTjAEHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> Stashed changes
   "logs": []
 }

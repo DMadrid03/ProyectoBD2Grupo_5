@@ -5,6 +5,7 @@
   },
   "compilationOptions": {},
   "targets": {
+<<<<<<< Updated upstream
     ".NETCoreApp,Version=v7.0": {
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.Win32.Registry/4.7.0": {
@@ -203,4 +204,9 @@
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     }
   }
+=======
+    ".NETCoreApp,Version=v7.0": {}
+  },
+  "libraries": {}
+>>>>>>> Stashed changes
 }
