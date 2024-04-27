@@ -51,7 +51,7 @@
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(178, 23);
             txtBusqueda.TabIndex = 13;
-            txtBusqueda.TextChanged += txtBusqueda_TextChanged;
+            txtBusqueda.KeyUp += txtBusqueda_KeyUp;
             // 
             // dataGridView1
             // 
@@ -70,7 +70,6 @@
             btnModificar.TabIndex = 11;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
-            btnModificar.Click += btnModificar_Click;
             // 
             // btnAgregar
             // 
