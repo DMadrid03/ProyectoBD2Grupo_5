@@ -7,10 +7,19 @@
     <Compile Update="Forms\FrmAgregarProductorFinca.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\frmCompraDialogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmCosechaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\FrmCultivosADD.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\frmInsumoDialogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmListaCompras.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\FrmListaFincaLotes.cs">
@@ -38,6 +47,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FrmProveedorFinca.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\MaestroDetalle_ProductorFinca.cs">

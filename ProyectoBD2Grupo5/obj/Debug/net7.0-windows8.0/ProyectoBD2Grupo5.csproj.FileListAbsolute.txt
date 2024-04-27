@@ -69,7 +69,6 @@ C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\Proy
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaProveedores.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmLogin.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmLotesProducto.resources
-C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmProveedorFinca.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.MDIMenu.resources
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.csproj.GenerateResource.cache
 C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.GeneratedMSBuildEditorConfig.editorconfig
@@ -96,49 +95,16 @@ C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\ob
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.MaestroDetalle_ProductorFinca.resources
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmCultivosADD.resources
 C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmAddCultivo.resources
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\Microsoft.ReportViewer.Common.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\Microsoft.ReportViewer.Design.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\Microsoft.ReportViewer.WinForms.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\Microsoft.SqlServer.Types.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\jeffe\OneDrive\Documents\GitHub\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\bin\Debug\net7.0-windows8.0\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmAddCultivo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmAgregarProductorFinca.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmCultivosADD.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmInsumoDialogo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmListaFincaLotes.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaInsumos.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmListaProductor.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmLoteCultivo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.MaestroDetalle_ProductorFinca.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmCompraDialogo.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaCosechaPago.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.frmListaCompras.resources
+C:\Users\LENOVO\Desktop\Program\Proyecto Base de Datos 2\ProyectoBD2Grupo_5\ProyectoBD2Grupo5\obj\Debug\net7.0-windows8.0\ProyectoBD2Grupo5.Forms.FrmProveedorFinca.resources

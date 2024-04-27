@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
         "projectName": "ProyectoBD2Grupo5",
-        "projectPath": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
-        "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeffe\\OneDrive\\Documents\\GitHub\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jeffe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,6 +61,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -68,7 +87,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
