@@ -134,16 +134,30 @@ namespace ProyectoBD2Grupo5.Forms
             frm.Show();
         }
 
-        private void insumosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void listaProductoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmListaInsumos frm = new frmListaInsumos(this.conexion);
+            FrmListaProductor frm = new FrmListaProductor(this.conexion);
             frm.MdiParent = this;
             frm.Show();
         }
 
-        private void comprasToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmListaCompras frm = new frmListaCompras(this.conexion);
+            MaestroDetalle_ProductorFinca frm = new MaestroDetalle_ProductorFinca(this.conexion);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void fincasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListaFincaLotes frm = new FrmListaFincaLotes(this.conexion);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void cultivosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCultivosADD frm = new FrmCultivosADD(this.conexion);
             frm.MdiParent = this;
             frm.Show();
         }

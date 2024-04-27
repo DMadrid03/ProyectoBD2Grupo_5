@@ -41,9 +41,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(12, 20);
             label1.Name = "label1";
-            label1.Size = new Size(113, 15);
+            label1.Size = new Size(98, 15);
             label1.TabIndex = 9;
-            label1.Text = "Buscar proveedores:";
+            label1.Text = "Buscar productor";
             // 
             // txtBusqueda
             // 
@@ -51,7 +51,8 @@
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(178, 23);
             txtBusqueda.TabIndex = 8;
-            txtBusqueda.KeyUp += txtBusqueda_KeyUp;
+            txtBusqueda.TextChanged += txtBusqueda_TextChanged;
+            txtBusqueda.KeyUp += this.txtBusqueda_KeyUp;
             // 
             // dataGridView1
             // 
@@ -70,7 +71,7 @@
             btnModificar.TabIndex = 6;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
-            btnModificar.Click += btnModificar_Click;
+            btnModificar.Click += this.btnModificar_Click;
             // 
             // btnAgregar
             // 
@@ -80,7 +81,7 @@
             btnAgregar.TabIndex = 5;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
-            btnAgregar.Click += btnAgregar_Click;
+            btnAgregar.Click += this.btnAgregar_Click;
             // 
             // frmListaProveedores
             // 
@@ -94,7 +95,7 @@
             Controls.Add(btnAgregar);
             Name = "frmListaProveedores";
             Text = "Proveedores";
-            Load += frmListaProveedores_Load;
+            Load += this.frmListaProveedores_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

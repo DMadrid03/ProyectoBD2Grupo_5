@@ -1,4 +1,13 @@
-use DB20211900096
+-- Creando la base de datos
+IF NOT EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = N'ProyectoBDII')
+BEGIN
+    CREATE DATABASE ProyectoBDII;
+END
+GO
+
+
+USE ProyectoBDII;
+
 -- Productor
 CREATE TABLE Productor (
   ProductorID INT NOT NULL,
@@ -45,7 +54,6 @@ CREATE TABLE Finca (
 -- Lote
 CREATE TABLE Lote (
   LoteID INT NOT NULL,
-  Codigo varchar(25) not null,
   FincaID INT NOT NULL,
   Extension FLOAT NOT NULL,
   TipoSueloID INT NOT NULL,
@@ -92,8 +100,8 @@ CREATE TABLE CultivoInsumo (
 CREATE TABLE Compra (
   CompraID INT NOT NULL,
   TipoCompraID INT NOT NULL,
-  ProveedorID INT NULL,
-  ProductorID INT NULL,
+  ProveedorID INT NOT NULL,
+  ProductorID INT NOT NULL,
   Fecha DATE NOT NULL,
   FechaVencimiento DATE NULL,
   CONSTRAINT pkCompra PRIMARY KEY (CompraID),

@@ -3,10 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|c:\\users\\lenovo\\desktop\\program\\proyecto base de datos 2\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frmlistacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|c:\\users\\lenovo\\desktop\\program\\proyecto base de datos 2\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frminsumodialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frminsumodialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +20,22 @@
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+=======
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|c:\\users\\lenovo\\desktop\\program\\proyecto base de datos 2\\proyectobd2grupo_5\\proyectobd2grupo5\\forms\\frminsumodialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frminsumodialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> f04ef49ffdb4f545c625717b8e4d373eabfe0ecc
       "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\frmlistainsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistainsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\frmlistaproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistaproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\forms\\frmlistainsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02DFB9B4-A98D-42EF-A348-ED9AD1322A72}|ProyectoBD2Grupo5.csproj|solutionrelative:forms\\frmlistainsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +45,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MDIMenu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
-              "RelativeDocumentMoniker": "Forms\\MDIMenu.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\MDIMenu.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "frmInsumoDialogo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmInsumoDialogo.cs",
+              "RelativeDocumentMoniker": "Forms\\frmInsumoDialogo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmInsumoDialogo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\frmInsumoDialogo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-04-26T00:32:48.536Z"
+=======
+              "WhenOpened": "2024-04-22T01:28:21.074Z",
+              "EditorCaption": " [Dise\u00F1o]"
+>>>>>>> f04ef49ffdb4f545c625717b8e4d373eabfe0ecc
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MDIMenu.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
-              "RelativeDocumentMoniker": "Forms\\MDIMenu.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\MDIMenu.cs",
-              "RelativeToolTip": "Forms\\MDIMenu.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAkwJEAAAA1AAAA",
+              "Title": "frmInsumoDialogo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmInsumoDialogo.cs",
+              "RelativeDocumentMoniker": "Forms\\frmInsumoDialogo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmInsumoDialogo.cs",
+              "RelativeToolTip": "Forms\\frmInsumoDialogo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-04-26T00:32:36.058Z"
+=======
+              "WhenOpened": "2024-04-22T01:26:20.504Z",
+              "EditorCaption": ""
+>>>>>>> f04ef49ffdb4f545c625717b8e4d373eabfe0ecc
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "frmListaInsumos.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaInsumos.cs",
               "RelativeDocumentMoniker": "Forms\\frmListaInsumos.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaInsumos.cs",
               "RelativeToolTip": "Forms\\frmListaInsumos.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwDEAAABhAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-04-26T00:05:09.827Z"
             },
             {
@@ -76,20 +102,36 @@
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaCompras.cs",
               "RelativeToolTip": "Forms\\frmListaCompras.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAmwD4AAAANAAAA",
+=======
+              "WhenOpened": "2024-04-21T23:50:56.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmListaInsumos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaInsumos.cs",
+              "RelativeDocumentMoniker": "Forms\\frmListaInsumos.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaInsumos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\frmListaInsumos.cs [Dise\u00F1o]",
+>>>>>>> f04ef49ffdb4f545c625717b8e4d373eabfe0ecc
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T23:54:07.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T23:47:27.92Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmListaCompras.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaCompras.cs",
-              "RelativeDocumentMoniker": "Forms\\frmListaCompras.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaCompras.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\frmListaCompras.cs [Dise\u00F1o]",
+              "Title": "frmListaProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaProveedores.cs",
+              "RelativeDocumentMoniker": "Forms\\frmListaProveedores.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\Forms\\frmListaProveedores.cs",
+              "RelativeToolTip": "Forms\\frmListaProveedores.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAiwGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-04-25T23:46:07.747Z"
+=======
+              "WhenOpened": "2024-04-21T20:27:57.715Z"
+>>>>>>> f04ef49ffdb4f545c625717b8e4d373eabfe0ecc
             }
           ]
         }

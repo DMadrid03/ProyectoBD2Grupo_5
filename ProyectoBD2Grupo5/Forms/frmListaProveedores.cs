@@ -32,10 +32,12 @@ namespace ProyectoBD2Grupo5.Forms
             adpProveedor.SelectCommand.CommandType = CommandType.StoredProcedure;
             adpProveedor.SelectCommand.Parameters.AddWithValue("@proveedorid", 0);
 
+
             adpBusqueda = new SqlDataAdapter();
             adpBusqueda.SelectCommand = new SqlCommand("spBusquedaProveedor", cnx);
             adpBusqueda.SelectCommand.CommandType = CommandType.StoredProcedure;
             adpBusqueda.SelectCommand.Parameters.Add("@texto", SqlDbType.VarChar, 50);
+
 
             adpProveedor.InsertCommand = new SqlCommand("spProveedorInsert", cnx);
             adpProveedor.InsertCommand.CommandType = CommandType.StoredProcedure;
@@ -68,7 +70,7 @@ namespace ProyectoBD2Grupo5.Forms
                 dataGridView1.AllowUserToAddRows = false;
                 dataGridView1.AllowUserToDeleteRows = false;
                 dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-                
+
             }
             catch (Exception ex)
             {
@@ -112,10 +114,10 @@ namespace ProyectoBD2Grupo5.Forms
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            if(dataGridView1.SelectedRows.Count > 0)
+            if (dataGridView1.SelectedRows.Count > 0)
             {
                 int indice = dataGridView1.SelectedRows[0].Index;
-                int proveedorid = (int)(tabProveedor.DefaultView[indice]["ProveedorID"]);
+                int proveedorid = (int)(tabProveedor.Rows[indice]["ProveedorID"]);
 
                 txtBusqueda.Text = "";
                 frmProveedorDialogo frm = new frmProveedorDialogo(this.conexion, this.adpProveedor, proveedorid);
@@ -125,6 +127,11 @@ namespace ProyectoBD2Grupo5.Forms
                 tabProveedor.Clear();
                 adpProveedor.Fill(tabProveedor);
             }
+        }
+
+        private void txtBusqueda_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -195,3 +195,6 @@ AS
 	set InsumoID = @insumoid, Cantidad = @cantidad, Precio = @precio
 	WHERE CompraID = @compraid
 GO
+
+exec spCompraSelect 1
+exec spCompraSelect 2

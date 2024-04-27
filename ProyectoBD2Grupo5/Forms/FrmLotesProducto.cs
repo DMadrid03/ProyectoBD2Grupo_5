@@ -16,5 +16,10 @@ namespace ProyectoBD2Grupo5.Forms
         {
             InitializeComponent();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
