@@ -37,9 +37,6 @@
     <Compile Update="Forms\frmListaProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FrmLotesProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\frmProveedorDialogo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +53,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\MDIMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReportsData\Reporte_Total_Finca.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

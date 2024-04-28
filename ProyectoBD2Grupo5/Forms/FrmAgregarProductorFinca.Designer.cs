@@ -33,7 +33,6 @@
             cmdSalvar = new Button();
             label2 = new Label();
             textFincaNombre = new TextBox();
-            cmdRegistratLote = new Button();
             SuspendLayout();
             // 
             // textProductorNombre
@@ -54,7 +53,7 @@
             // 
             // cmdSalvar
             // 
-            cmdSalvar.Location = new Point(43, 239);
+            cmdSalvar.Location = new Point(141, 192);
             cmdSalvar.Name = "cmdSalvar";
             cmdSalvar.Size = new Size(88, 80);
             cmdSalvar.TabIndex = 2;
@@ -78,21 +77,11 @@
             textFincaNombre.Size = new Size(100, 23);
             textFincaNombre.TabIndex = 3;
             // 
-            // cmdRegistratLote
-            // 
-            cmdRegistratLote.Location = new Point(197, 239);
-            cmdRegistratLote.Name = "cmdRegistratLote";
-            cmdRegistratLote.Size = new Size(88, 80);
-            cmdRegistratLote.TabIndex = 5;
-            cmdRegistratLote.Text = "Agregar Lote";
-            cmdRegistratLote.UseVisualStyleBackColor = true;
-            // 
             // FrmAgregarProductorFinca
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(387, 379);
-            Controls.Add(cmdRegistratLote);
             Controls.Add(label2);
             Controls.Add(textFincaNombre);
             Controls.Add(cmdSalvar);
@@ -112,6 +101,5 @@
         private Button cmdSalvar;
         private Label label2;
         private TextBox textFincaNombre;
-        private Button cmdRegistratLote;
     }
 }
