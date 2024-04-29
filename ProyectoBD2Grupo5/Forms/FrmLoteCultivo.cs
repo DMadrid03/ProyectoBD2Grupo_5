@@ -46,7 +46,7 @@ namespace ProyectoBD2Grupo5.Forms
 
         private void validarDataGr(bool estado)
         {
-            
+
             if (estado == true)
             {
                 dataGridView1.AllowUserToAddRows = false;
@@ -75,7 +75,7 @@ namespace ProyectoBD2Grupo5.Forms
                 cmbTsuelo.Enabled = false;
                 dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             }
-            
+
 
 
         }
@@ -188,7 +188,7 @@ namespace ProyectoBD2Grupo5.Forms
                 if (status == true) //modo agregar
                 {
 
-                    if (CamposNoVacios( textExtension, textCantidadSembrada))
+                    if (CamposNoVacios(textExtension, textCantidadSembrada))
                     {
                         //dtLote = new DataTable();
                         //adplote.Fill(dtLote);
@@ -246,7 +246,7 @@ namespace ProyectoBD2Grupo5.Forms
 
             adplote.Update(dtLote);
             dtLote.Clear();
-             adplote.Fill(dtLote);
+            adplote.Fill(dtLote);
             dataGridView1.DataSource = dtLote;
         }
 
@@ -292,8 +292,13 @@ namespace ProyectoBD2Grupo5.Forms
                 }
 
             }
-            
+
             //
+        }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

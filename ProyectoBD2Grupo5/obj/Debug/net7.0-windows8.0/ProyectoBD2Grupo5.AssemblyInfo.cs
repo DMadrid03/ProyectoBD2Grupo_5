@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoBD2Grupo5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75627cc18e6fbd86a96e61426b5c6fd3c4fa324d")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> 1e60c129a40236708d4bb768717fa9ac768af64a
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoBD2Grupo5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoBD2Grupo5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

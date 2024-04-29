@@ -175,5 +175,53 @@ namespace ProyectoBD2Grupo5.Forms
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void reporteTotalxCultivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Mostrar el cuadro de diálogo de entrada personalizado para fecha
+            DateTime userInput = ShowDateInputDialog("Selecciona una fecha:");
+
+            // Mostrar la fecha introducida por el usuario
+            if (userInput != null)
+            {
+               //MessageBox.Show("Fecha seleccionada: " + userInput);
+
+                ReportsData.Reporte_Total_Finca frm = new ReportsData.Reporte_Total_Finca(userInput,conexion);
+                frm.MdiParent = this;
+                frm.Show();
+            }
+            else
+            {
+                MessageBox.Show("Debes seleccionar una Fecha para generar el reporte ","Error", MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+
+        }
+
+        //
+        // Función para mostrar el cuadro de diálogo de entrada personalizado para fecha
+        private DateTime ShowDateInputDialog(string text)
+        {
+            Form prompt = new Form();
+            prompt.Width = 300;
+            prompt.Height = 150;
+            prompt.Text = text;
+
+            DateTimePicker dateTimePicker = new DateTimePicker() { Left = 50, Top = 20, Width = 200 };
+            
+
+            dateTimePicker.Format = DateTimePickerFormat.Custom;
+            dateTimePicker.CustomFormat = "yyyy-MM-dd";
+            Button okButton = new Button() { Text = "OK", Left = 100, Width = 100, Top = 50 };
+            okButton.Click += (sender, e) => { prompt.Close(); };
+
+            prompt.Controls.Add(dateTimePicker);
+            prompt.Controls.Add(okButton);
+            prompt.ShowDialog();
+
+            return dateTimePicker.Value;
+        }
+        //
+
+
     }
 }

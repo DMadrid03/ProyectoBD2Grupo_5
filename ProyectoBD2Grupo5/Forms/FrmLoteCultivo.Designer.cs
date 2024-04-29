@@ -170,6 +170,7 @@
             cmdCancelar.TabIndex = 5;
             cmdCancelar.Text = "Cancelar";
             cmdCancelar.UseVisualStyleBackColor = true;
+            cmdCancelar.Click += cmdCancelar_Click;
             // 
             // dataGridView1
             // 
