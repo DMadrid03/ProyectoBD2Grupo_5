@@ -40,9 +40,6 @@
     <Compile Update="Forms\FrmLotesProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\frmProveedorDialogo.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\FrmLoteCultivo.cs">
       <SubType>Form</SubType>
     </Compile>

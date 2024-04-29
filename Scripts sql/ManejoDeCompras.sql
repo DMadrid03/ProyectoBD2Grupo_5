@@ -120,9 +120,9 @@ AS
 	SELECT * FROM Compra where CompraID = @compraid
 GO
 
-CREATE PROCEDURE spCompraInsert @compraid int, @tipocompraid int,
+ALTER PROCEDURE spCompraInsert @compraid int, @tipocompraid int,
 							@proveedorid int, @productorid int, 
-							@fecha DATE, @fechavencimiento DATE
+							@fecha DATE, @fechavencimiento DATE, @cultivo int
 AS
 	select @compraid = dbo.CalcularPkCompra()
 	if @tipocompraid =1
@@ -132,33 +132,33 @@ AS
 		End
 	if @tipocompraid = 2
 		Begin
-			insert into Compra (CompraID, TipoCompraID, ProductorID, Fecha)
-					values		(@compraid, @tipocompraid, @productorid, @fecha)
+			insert into Compra (CompraID, TipoCompraID, ProductorID, Fecha, CultivoID)
+					values		(@compraid, @tipocompraid, @productorid, @fecha, @cultivo)
 		End
 GO
 
-CREATE PROCEDURE spCompraUpdate @compraid int, @tipocompraid int,
+ALTER PROCEDURE spCompraUpdate @compraid int, @tipocompraid int,
 							@proveedorid int, @productorid int, 
 							@fecha DATE, @fechavencimiento DATE
 AS
 	if @tipocompraid =1
 		Begin
 			Update	Compra
-			Set CompraID =@compraid, TipoCompraID =@tipocompraid, 
+			Set TipoCompraID =@tipocompraid, 
 				ProveedorID = @proveedorid, Fecha = @fecha, FechaVencimiento = @fechavencimiento
+			WHERE CompraID =@compraid
 		End
 	if @tipocompraid = 2
 		Begin
 			Update	Compra
-			Set CompraID =@compraid, TipoCompraID =@tipocompraid, 
+			Set TipoCompraID =@tipocompraid, 
 				ProductorID = @productorid, Fecha = @fecha
+			where CompraID =@compraid
 		End
 GO
 
-Alter PROCEDURE spCompraDetalleSelect @compraid int
+Alter PROCEDURE spCompraDetalleSelect @compraid int, @tipo int
 AS
-	declare @tipo int
-	select @tipo = TipoCompraID from Compra where CompraID = @compraid
 	
 	if @tipo = 1
 		Begin
@@ -182,19 +182,93 @@ AS
 GO
 
 
-CREATE PROCEDURE spCompraDetalleInsert @compraid int, @insumoid int, @cantidad int, @precio float
+ALTER PROCEDURE spCompraDetalleInsert @compraid int, @insumoid int, @cantidad int, @precio float
 AS
-	declare @pk int
+	BEGIN TRANSACTION
+	declare @pk int, @tipo int, @error int
+
+	select @tipo = TipoCompraID from Compra where CompraID = @compraid
+
 	select @pk = max(isnull(CompraDetalleID, 0)) +1 from CompraDetalle
+
+	
 	INSERT INTO CompraDetalle values (@pk, @compraid, @insumoid, @cantidad, @precio)
+	if @@ERROR <> 0
+		set @error = @@ERROR
+
+	exec spActualizarExistencia @tipo, @insumoid, @cantidad, @error output
+
+
+	if @error =0
+		Commit
+	Else
+		Rollback
 GO
 
-CREATE PROCEDURE spCompraDetalleUpdate @compraid int, @insumoid int, @cantidad int, @precio float
+ALTER PROCEDURE spCompraDetalleUpdate @compraid int, @insumoid int, @cantidad int, @precio float
 AS
+	BEGIN TRANSACTION
+	declare @cantidadActual int, @cambio int, @tipo int, @error int
+	select @cantidadActual = Cantidad from CompraDetalle 
+							 where CompraID = @compraid AND InsumoID = @insumoid
+
+
+	select @tipo = TipoCompraID from Compra where CompraID = @compraid
+
+	set @cambio = @cantidad - @cantidadActual
+
 	UPDATE CompraDetalle
-	set InsumoID = @insumoid, Cantidad = @cantidad, Precio = @precio
-	WHERE CompraID = @compraid
+	set  Cantidad = @cantidad, Precio = @precio
+	WHERE CompraID = @compraid AND InsumoID = @insumoid
+
+	if @@ERROR <> 0
+		set @error = @@ERROR
+
+	EXEC spActualizarExistencia @tipo, @insumoid, @cambio, @error output
+
+	if @error =0
+		Commit
+	Else
+		Rollback
 GO
 
-exec spCompraSelect 1
-exec spCompraSelect 2
+CREATE PROCEDURE spObtenerProductorDeCultivo @cultivoid int
+AS
+	select p.ProductorID, p.Nombre  from Productor p
+	inner join Finca f on p.ProductorID=f.ProductorID
+	inner join Lote l on l.FincaID=f.FincaID
+	inner join Cultivo c on l.LoteID=c.LoteID  where c.cultivoID=@cultivoid
+GO
+
+Alter PROCEDURE spActualizarExistencia @tipo int, @insumoid int, @cantidadinsert int, @err int output
+AS
+	if @tipo = 1
+		BEGIN
+			Update Insumo
+			set Existencia = (Existencia+ @cantidadinsert)
+			WHERE InsumoID = @insumoid
+			
+			set @err = @@ERROR
+		END
+	if @tipo = 2
+		BEGIN
+			Update Insumo
+			set Existencia = (Existencia - @cantidadinsert)
+			WHERE InsumoID = @insumoid
+
+			SET @err = @@ERROR
+		END
+GO
+
+Alter table Insumo Add constraint chkExistencia check (Existencia >=0)
+
+create or alter function dbo.TipoCompra() returns @TipoCompra table
+	(TipoCompraID int, Nombre varchar(50))
+as
+	begin
+		insert into @TipoCompra values
+			(1,'Compra a Proveedores'), --agrocomercializadora compra grandes cantidades a los proveedores
+			(2,'Solicitud de insumos a la agrocomercializadora') --los productores solicitan insumos a la agrocomercializadora
+		return
+	end
+go

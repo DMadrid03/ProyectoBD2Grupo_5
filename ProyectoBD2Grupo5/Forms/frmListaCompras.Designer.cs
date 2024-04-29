@@ -33,7 +33,6 @@
             dataGridView1 = new DataGridView();
             btnModificar = new Button();
             btnAgregar = new Button();
-            btnMostrarDetalle = new Button();
             radCompras = new RadioButton();
             radSolicitudes = new RadioButton();
             groupBox1 = new GroupBox();
@@ -46,9 +45,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(23, 29);
             label1.Name = "label1";
-            label1.Size = new Size(93, 15);
+            label1.Size = new Size(89, 15);
             label1.TabIndex = 19;
-            label1.Text = "Buscar insumos:";
+            label1.Text = "Buscar Nombre";
             // 
             // txtBusqueda
             // 
@@ -56,6 +55,7 @@
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.Size = new Size(178, 23);
             txtBusqueda.TabIndex = 18;
+            txtBusqueda.TextChanged += txtBusqueda_TextChanged;
             // 
             // dataGridView1
             // 
@@ -68,30 +68,23 @@
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(708, 25);
+            btnModificar.Location = new Point(831, 25);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(75, 23);
             btnModificar.TabIndex = 16;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(606, 25);
+            btnAgregar.Location = new Point(728, 25);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 15;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // btnMostrarDetalle
-            // 
-            btnMostrarDetalle.Location = new Point(799, 25);
-            btnMostrarDetalle.Name = "btnMostrarDetalle";
-            btnMostrarDetalle.Size = new Size(107, 23);
-            btnMostrarDetalle.TabIndex = 20;
-            btnMostrarDetalle.Text = "Mostrar Detalle";
-            btnMostrarDetalle.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // radCompras
             // 
@@ -121,7 +114,7 @@
             // 
             groupBox1.Controls.Add(radSolicitudes);
             groupBox1.Controls.Add(radCompras);
-            groupBox1.Location = new Point(335, 18);
+            groupBox1.Location = new Point(387, 19);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(236, 37);
             groupBox1.TabIndex = 23;
@@ -133,7 +126,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(930, 423);
             Controls.Add(groupBox1);
-            Controls.Add(btnMostrarDetalle);
             Controls.Add(btnAgregar);
             Controls.Add(label1);
             Controls.Add(txtBusqueda);
@@ -156,7 +148,6 @@
         private DataGridView dataGridView1;
         private Button btnModificar;
         private Button btnAgregar;
-        private Button btnMostrarDetalle;
         private RadioButton radCompras;
         private RadioButton radSolicitudes;
         private GroupBox groupBox1;

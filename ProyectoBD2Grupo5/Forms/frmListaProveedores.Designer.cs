@@ -31,8 +31,7 @@
             label1 = new Label();
             txtBusqueda = new TextBox();
             dataGridView1 = new DataGridView();
-            btnModificar = new Button();
-            btnAgregar = new Button();
+            btnSalvar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -62,25 +61,15 @@
             dataGridView1.Size = new Size(595, 241);
             dataGridView1.TabIndex = 7;
             // 
-            // btnModificar
+            // btnSalvar
             // 
-            btnModificar.Location = new Point(532, 16);
-            btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(75, 23);
-            btnModificar.TabIndex = 6;
-            btnModificar.Text = "Modificar";
-            btnModificar.UseVisualStyleBackColor = true;
-            btnModificar.Click += btnModificar_Click;
-            // 
-            // btnAgregar
-            // 
-            btnAgregar.Location = new Point(440, 16);
-            btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(75, 23);
-            btnAgregar.TabIndex = 5;
-            btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
-            btnAgregar.Click += btnAgregar_Click;
+            btnSalvar.Location = new Point(532, 16);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(75, 23);
+            btnSalvar.TabIndex = 5;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += btnSalvar_Click;
             // 
             // frmListaProveedores
             // 
@@ -90,8 +79,7 @@
             Controls.Add(label1);
             Controls.Add(txtBusqueda);
             Controls.Add(dataGridView1);
-            Controls.Add(btnModificar);
-            Controls.Add(btnAgregar);
+            Controls.Add(btnSalvar);
             Name = "frmListaProveedores";
             Text = "Proveedores";
             Load += frmListaProveedores_Load;
@@ -105,7 +93,6 @@
         private Label label1;
         private TextBox txtBusqueda;
         private DataGridView dataGridView1;
-        private Button btnModificar;
-        private Button btnAgregar;
+        private Button btnSalvar;
     }
 }

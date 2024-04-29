@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kh5Qk+8p9UYP3Yi6u0jLsd+MY6QplZzQoeEBsSfov2Ti8QIeEZ3uQlFOTAqAb4KuSB9LtM2WYOdUrDAvvnIKNw==",
+  "dgSpecHash": "8MHY1TNzlyclw9QAa9lyhdsDifgvVxOzqBYTkmZv2ThJEy+u7F1OvW2KxHnzVYIf10SyvH6SqQ6Qpd4SV8eWqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Program\\Proyecto Base de Datos 2\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Program\\Todo de Proyecto de BD2\\Clon de push 36 de jeffer\\ProyectoBD2Grupo_5\\ProyectoBD2Grupo5\\ProyectoBD2Grupo5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

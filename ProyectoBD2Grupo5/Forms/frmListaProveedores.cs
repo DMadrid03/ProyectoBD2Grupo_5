@@ -50,9 +50,6 @@ namespace ProyectoBD2Grupo5.Forms
             adpProveedor.UpdateCommand.Parameters.Add("@nombre", SqlDbType.VarChar, 50, "Nombre");
             adpProveedor.UpdateCommand.Parameters.Add("@direccion", SqlDbType.VarChar, 50, "Direccion");
 
-            adpProveedor.DeleteCommand = new SqlCommand("spProveedorDelete", cnx);
-            adpProveedor.DeleteCommand.CommandType = CommandType.StoredProcedure;
-            adpProveedor.DeleteCommand.Parameters.Add("@proveedorid", SqlDbType.Int, 4, "ProveedoriD");
 
         }
 
@@ -64,10 +61,11 @@ namespace ProyectoBD2Grupo5.Forms
                 adpProveedor.Fill(tabProveedor);
 
                 dataGridView1.DataSource = tabProveedor;
-                dataGridView1.ReadOnly = true;
-                dataGridView1.AllowUserToAddRows = false;
+                dataGridView1.ReadOnly = false;
+                dataGridView1.AllowUserToAddRows = true;
                 dataGridView1.AllowUserToDeleteRows = false;
-                dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                dataGridView1.Columns["ProveedorID"].ReadOnly = true;
+                
                 
             }
             catch (Exception ex)
@@ -99,32 +97,14 @@ namespace ProyectoBD2Grupo5.Forms
 
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private void btnSalvar_Click(object sender, EventArgs e)
         {
             txtBusqueda.Text = "";
-            frmProveedorDialogo frm = new frmProveedorDialogo(this.conexion, this.adpProveedor, -1);
-            frm.StartPosition = FormStartPosition.CenterScreen;
-            frm.ShowDialog();
+            adpProveedor.Update(tabProveedor);
 
-            tabProveedor.Clear();
-            adpProveedor.Fill(tabProveedor);
+            MessageBox.Show("Informacion guardada exitosamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-            if(dataGridView1.SelectedRows.Count > 0)
-            {
-                int indice = dataGridView1.SelectedRows[0].Index;
-                int proveedorid = (int)(tabProveedor.DefaultView[indice]["ProveedorID"]);
 
-                txtBusqueda.Text = "";
-                frmProveedorDialogo frm = new frmProveedorDialogo(this.conexion, this.adpProveedor, proveedorid);
-                frm.StartPosition = FormStartPosition.CenterScreen;
-                frm.ShowDialog();
-
-                tabProveedor.Clear();
-                adpProveedor.Fill(tabProveedor);
-            }
-        }
     }
 }
